@@ -66,10 +66,14 @@ section{
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
+    color: white;
+    font-size: 2em;
   }
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw;
+     color: white;
+  font-size: 2em; /* 1vw = 1% of viewport width */
   }
  
 
@@ -78,4 +82,13 @@ section{
   }
 
 
+}
+.title { 
+  font-family: 'Oxygen', serif;
+  color: grey;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 10;
+  margin-bottom: 10;
+  line-height: .75;
 }
